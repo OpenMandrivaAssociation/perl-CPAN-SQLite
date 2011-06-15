@@ -1,9 +1,9 @@
 %define upstream_name    CPAN-SQLite
-%define upstream_version 0.199
+%define upstream_version 0.200
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 2
+Release:    %mkrel 1
 
 Summary:    Maintain and search a minimal CPAN database
 License:    GPL+ or Artistic
