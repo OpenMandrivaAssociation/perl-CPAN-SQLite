@@ -1,5 +1,5 @@
 %define upstream_name    CPAN-SQLite
-%define upstream_version 0.200
+%define upstream_version 0.201
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
