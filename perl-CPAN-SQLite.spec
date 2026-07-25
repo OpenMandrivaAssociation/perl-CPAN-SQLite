@@ -1,15 +1,15 @@
 %define upstream_name    CPAN-SQLite
-%define upstream_version 0.203
+%define upstream_version 0.220
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	Maintain and search a minimal CPAN database
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/CPAN/CPAN-SQLite-%{upstream_version}.tar.gz
+Url:		https://metacpan.org/dist/CPAN-SQLite
+Source0:	https://cpan.metacpan.org/authors/id/S/ST/STRO/CPAN-SQLite-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
